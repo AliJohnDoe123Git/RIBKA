@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: rgb(34, 216, 49);
+}
+h1 {
+    color: rgb(137, 43, 214);
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+h2 {
+    color: rgb(45, 214, 236);
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+}
+.photo {
+    width: 120px;
+    height: 300px;
+    border-radius: %;
+    overflow: hidden;
+    margin: 20px;
+    border: 5px solid white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.photo img {
+    width: 150%;
+    height: 200%;
+    object-fit: cover;
+}
+.button {
+    background: #ff4081;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.button:hover {
+    background: #e91e63;
+}
+.flower {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd9FhUgAgIh_XwvygpdKDs9XBMcV8HDHLAcEdsJ4Ma1gUl7_iF&s') no-repeat center/cover;
+    opacity: 0;
+    pointer-events: none;
+}
